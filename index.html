@@ -25,18 +25,18 @@
             <h4>Best view:</h4>
             <ul class="list--glasses">
                 <li>
-                    <span class="browser chrome"></span> <span class="list--glasses__sign">+</span> флаг: <i>chrome://flags/#enable-experimental-web-platform-features</i>
+                    <span class="browser chrome"></span> <span class="list--glasses__sign">+</span> <i>chrome://flags/#enable-experimental-web-platform-features</i>
                 </li>
                 <li>
-                    <span class="browser opera"></span> <span class="list--glasses__sign">+</span> флаг: <i>opera://flags/#enable-experimental-web-platform-features</i>
+                    <span class="browser opera"></span> <span class="list--glasses__sign">+</span> <i>opera://flags/#enable-experimental-web-platform-features</i>
                 </li>
             </ul>
             <p class="tooltip--glasses">
-            Copy link to adress bar of your browser, enable flag and restart browser.</p>
+            Copy link to adress bar, enable flag and restart browser.</p>
 
             <h4>Not good enough:</h4>
             <ul class="list--glasses">
-                <li><span class="browser safari"></span> <span class="list--glasses__sign">и</span> <span class="browser firefox"></span>
+                <li><span class="browser safari"></span> <span class="list--glasses__sign">and</span> <span class="browser firefox"></span>
                 </li>
             </ul>
         </div>
@@ -45,7 +45,7 @@
     <!-- Slide -->
     <section class="slide slide--vlm"><div>
         <div class="slide__content">
-            <h2>background-blend-mode</h2>
+            <h2 class="next">background-blend-mode</h2>
             <h2 class="next">mix-blend-mode</h2>
         </div>
     </div></section>
@@ -477,9 +477,9 @@
         <code>    }</code></pre>
 
         <pre class="next"><code>.block { </code>
-        <code>    opacity: .5; <span class="comment">/* или */</span></code>
-        <code class="next">    transform: translateZ(0); <span class="comment">/* или */</span></code>
-        <code class="next">    mask: url(#mask); <span class="comment">/* или */</span></code>
+        <code>    opacity: .5; <span class="comment">/* or */</span></code>
+        <code class="next">    transform: translateZ(0); <span class="comment">/* or */</span></code>
+        <code class="next">    mask: url(#mask); <span class="comment">/* or */</span></code>
         <code class="next">    filter: blur();</code>
         <code class="next">    }</code></pre>
 
@@ -552,7 +552,7 @@
 
     <div class="next"><h3>Problems</h3>
     <ul>
-        <li class="next"><code>mix-blend-mode</code> + <code>background-blend-mode</code> могут уронить Firefox</li>
+        <li class="next"><code>mix-blend-mode</code> + <code>background-blend-mode</code> can break down Firefox</li>
         <li class="next">Safari doesn't support <code>hue</code>, <code>saturation</code>, <code>color</code>, <code>luminosity</code></li>
         <!-- <li class="next">в Firefox проблемы с тенями и <code>color-burn</code></li> -->
     </ul></div>
@@ -637,12 +637,12 @@
 
     <!-- Slide -->
     <section class="slide"><div>
-        <div><h3>Проблемы</h3>
+        <div><h3>Problems</h3>
         <ul>
             <li class="next">IE9 doesn't support SVG filters</li>
             <li class="next">Background resizes with image</li>
             <li class="next">Thin lines appear between background tiles while resizing images</li>
-            <li class="next">Browsers support different sets of blend modes (<a href="http://codepen.io/yoksel/full/BiExv/">демо для тестов</a>)</li>
+            <li class="next">Browsers support different sets of blend modes (<a href="http://codepen.io/yoksel/full/BiExv/">demo for tests</a>)</li>
         </ul></div>
         <h3 class="next">Advantages</h3>
         <ul>
@@ -659,8 +659,8 @@
     <section class="slide"><div>
         <h3>Useful links</h3>
             <ul>
-                <li><a href="http://www.w3.org/TR/compositing-1/">Specification</a> (англ.)</li>
-                <li class="next"><a href="https://dev.opera.com/articles/getting-to-know-css-blend-modes/">Getting to Know CSS Blend Modes</a> (англ.)</li>
+                <li><a href="http://www.w3.org/TR/compositing-1/">Specification</a></li>
+                <li class="next"><a href="https://dev.opera.com/articles/getting-to-know-css-blend-modes/">Getting to Know CSS Blend Modes</a></li>
                 <li class="next"><a href="http://codepen.io/collection/Hcdol/">Experiments from Adobe on Codepen</a></li>
                 <li class="next"><a href="http://codepen.io/collection/fEkjb/">My experiments on Codepen</a></li>
                 <!-- <li class="next"><a href="http://css.yoksel.ru/background-blend-mode/">Background-blend-mode</a> (рус.)</li>
